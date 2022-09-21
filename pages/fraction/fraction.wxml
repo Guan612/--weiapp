@@ -1,0 +1,8 @@
+<view>
+  <view class="flex justify-content flex-items contentss">
+    <image class="content_image" src="http://pic.ik123.com/uploads/allimg/200528/12-20052Q03931.jpg" />
+  </view>
+  <van-cell-group wx:for="{{list}}" wx:key="index">
+    <view class="items-s"> {{item.label}}</view>
+  </van-cell-group>
+</view>

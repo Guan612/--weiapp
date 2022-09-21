@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-radio": "/weapp/radio/index",
+    "van-radio-group": "/weapp/radio-group/index",
+    "van-cell": "/weapp/cell/index",
+    "van-cell-group": "/weapp/cell-group/index",
+    "van-field": "/weapp/field/index",
+    "van-button": "/weapp/button/index"
+  },
+  "navigationBarTitleText": "举报"
+}

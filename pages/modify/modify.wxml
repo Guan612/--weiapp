@@ -1,0 +1,12 @@
+<view>
+  <view class="flex justify-content flex-items contentss">
+    <image class="content_image" src="{{avatarUrl}}" />
+  </view>
+  <van-cell-group wx:for="{{list}}" wx:key="index">
+    <van-field label="{{item.label}}" placeholder="请输入{{item.label}}" />
+  </van-cell-group>
+  <view style="padding: 40rpx;" bindtap="handleClick">
+    <van-button type="info" block>确认保存</van-button>
+  </view>
+
+</view>

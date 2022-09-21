@@ -1,0 +1,6 @@
+<view>
+  <view wx:for="{{list}}" wx:key="title" class="buttons">
+    <van-button block type="default">{{item.title}}</van-button>
+
+  </view>
+</view>

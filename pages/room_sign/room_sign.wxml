@@ -1,0 +1,32 @@
+<view>
+  <view class="tabs_content">
+    <van-tabs color="#1989fa" active="{{ active }}" bind:change="onChange">
+      <van-tab title="手势签到">
+        <image class="images" mode="aspectFit" src="/images/jiugong.png" />
+      </van-tab>
+      <van-tab title="定位签到">
+        <image class="images" mode="aspectFit" src="/images/gaode.png" />
+        <view class="flex flex-items space-between content">
+          <view style="width: 48%;">
+            <van-button bindtap="handleRoute" block type="primary">重新定位</van-button>
+          </view>
+          <view style="width: 48%;">
+            <van-button block type="info" bindtap="handleClick">确定</van-button>
+          </view>
+        </view>
+      </van-tab>
+      <van-tab title="口令签到">
+        <input class="weui-input" auto-focus placeholder="请输入口令" />
+        <view class="flex flex-items space-between content">
+          <view style="width: 48%;">
+            <van-button bindtap="handleRoute" block type="primary">取消</van-button>
+          </view>
+          <view style="width: 48%;">
+            <van-button block type="info" bindtap="handleClick">确定</van-button>
+          </view>
+        </view>
+      </van-tab>
+    </van-tabs>
+  </view>
+
+</view>

@@ -1,0 +1,14 @@
+<view>
+  <view class="tabs_content">
+    <view style="margin-top: 10rpx;" wx:for="{{list}}" wx:key="id">
+      <van-card thumb-class="tabs_image" centered thumb="{{ item.imageURL }}">
+        <view slot="title" class="flex space-between">
+          <view>{{item.title}}</view>
+          <van-button type="danger">删除</van-button>
+        </view>
+      </van-card>
+
+    </view>
+  </view>
+  <van-share-sheet show="{{ showShare }}" title="课堂操作" options="{{ options }}" bind:select="onSelect" bind:close="onClose" />
+</view>

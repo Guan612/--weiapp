@@ -1,0 +1,13 @@
+<view class="contents">
+  <view>
+    <van-cell-group>
+      <van-field value="{{ message }}" show-word-limit label="申请理由" type="textarea" placeholder="请输入申请理由" maxlength="500" autosize border="{{ false }}" />
+    </van-cell-group>
+    <view style="background-color: #ffffff;padding: 20rpx;">
+      <van-uploader max-count="1" file-list="{{ fileList }}" bind:after-read="afterRead" />
+    </view>
+    <view class="content">
+      <van-button block type="info" bindtap="handleClick">提交</van-button>
+    </view>
+  </view>
+</view>

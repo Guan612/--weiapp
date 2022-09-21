@@ -1,0 +1,11 @@
+<view class="content">
+  <view class="content_block" wx:for="[1,2,3,4]" wx:key="key">
+    <view class="content_hre">保存时间: 2020.3.1</view>
+    <view class="content_text">保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容保存内容</view>
+    <view class="content_icon">
+      <van-icon class="content_icon_noe" size="26" name="setting" />
+      <van-icon size="26" name="delete" />
+    </view>
+  </view>
+  <van-divider contentPosition="center">暂无更多草稿</van-divider>
+</view>

@@ -1,0 +1,14 @@
+<view>
+  <van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+  <view class="tabs_content">
+    <view bindtap="handleAction" class="tabs_content_block" style="margin-top: 10rpx;" wx:for="{{list}}" wx:key="id">
+      <view class="flex flex-items">
+        <image class="tabs_content_image" src="http://pic.ik123.com/uploads/allimg/200528/12-20052Q03931.jpg" />
+        <view class="tabs_content_title">老oo</view>
+      </view>
+      <view class="tabs_content_text">提问：阿达萨达挥洒的横扫ID撒后ID好骚ID好骚ID好骚我活动is啊哈都很骚ID好骚ID好骚后</view>
+      <view>悬赏币: 10</view>
+    </view>
+  </view>
+  <van-button bindtap="handleClick" icon="plus" type="info" class="reward_add" />
+</view>

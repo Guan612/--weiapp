@@ -1,0 +1,27 @@
+<view class="contents">
+  <view class="content_title">
+    <van-row>
+      <van-col span="12">您拥有300悬赏币</van-col>
+      <van-col span="12" bindtap="handleDraft" style="text-align: right;">草稿箱</van-col>
+    </van-row>
+  </view>
+  <view>
+    <van-cell-group>
+      <van-field value="{{ message }}" show-word-limit label="悬赏内容" type="textarea" placeholder="请输入悬赏内容" maxlength="500" autosize border="{{ false }}" />
+    </van-cell-group>
+    <van-cell-group>
+      <van-field label="悬赏币" value="{{ value }}" placeholder="请输入悬赏币数量" border="{{ false }}" bind:change="onChange" />
+    </van-cell-group>
+    <view style="background-color: #ffffff;padding: 20rpx;">
+      <van-uploader max-count="1" file-list="{{ fileList }}" bind:after-read="afterRead" />
+    </view>
+    <view class="flex flex-items space-between content">
+      <view style="width: 40%;">
+        <van-button block type="primary" bindtap="handleClick">取消</van-button>
+      </view>
+      <view style="width: 40%;">
+        <van-button block type="info" bindtap="handleClick">发布</van-button>
+      </view>
+    </view>
+  </view>
+</view>

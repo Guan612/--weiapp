@@ -1,0 +1,38 @@
+.tabs_content {
+  padding: 10rpx;
+}
+
+.tabs_content_block {
+  background-color: #ffffff;
+  padding: 20rpx;
+}
+
+.tabs_content_image {
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 20rpx;
+  border-radius: 100rpx;
+}
+
+.tabs_content_text {
+  margin: 20rpx 0rpx;
+  font-size: 26rpx;
+}
+
+.tabs_content_title {
+  font-size: 32rpx;
+}
+
+.reward_add {
+  position: fixed;
+  bottom: 42rpx;
+  z-index: 99;
+  right: 20rpx;
+}
+
+.content_input {
+  position: fixed;
+  bottom: 70rpx;
+  left: 0rpx;
+  width: 100%;
+}

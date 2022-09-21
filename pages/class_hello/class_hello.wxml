@@ -1,0 +1,11 @@
+<view>
+  <view class="content_block">欢迎来的课堂，您是？</view>
+  <view class="flex flex-items space-between content">
+    <view style="width: 48%;">
+      <van-button bindtap="handleRoute" block type="primary">我是学生</van-button>
+    </view>
+    <view style="width: 48%;">
+      <van-button block type="info" bindtap="handleRoute">我是老师</van-button>
+    </view>
+  </view>
+</view>

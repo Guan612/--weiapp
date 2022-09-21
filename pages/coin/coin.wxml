@@ -1,0 +1,12 @@
+<view>
+  <view class="flex flex-items space-between content">
+    <view style="width: 48%;">
+      余额: 300
+    </view>
+    <view style="width: 48%;">
+      充值
+    </view>
+  </view>
+  <view class="content_ul">历史</view>
+  <view class="content_li" wx:key="index" wx:for="{{list}}">{{item.titile}}</view>
+</view>

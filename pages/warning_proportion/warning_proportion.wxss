@@ -1,0 +1,21 @@
+.proprotion {
+  width: 100%;
+  height: 300rpx;
+}
+
+.warnings {
+  width: 60%;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 20rpx;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 32rpx;
+}
+
+.right {
+  width: 40%;
+  height: 100%;
+  background-color: #7d7979;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}

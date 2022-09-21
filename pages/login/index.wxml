@@ -1,0 +1,7 @@
+<view class="login-content">
+  <view class="content_images">
+    <image src="/images/ipad.jpg" class="images" />
+  </view>
+  <button bindtap="handleGetUserInfo" class="button">微信一键登录</button>
+  <!-- <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" class="button">手机号码授权登录</button> -->
+</view>

@@ -1,0 +1,22 @@
+<view>
+  <view class="flex flex-items  content">
+    <view style="width: 100%;text-align: center;">
+      今天3.28日
+    </view>
+  </view>
+  <van-dropdown-menu>
+  <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+  <van-dropdown-item value="{{ value2 }}" options="{{ option2 }}" />
+</van-dropdown-menu>
+  <view class="tabs_content">
+    <view style="margin-top: 10rpx;" wx:for="{{list}}" wx:key="id">
+      <van-card bindtap="handleRoute" wx:key="id" title="{{item.title}}" thumb="{{ item.imageURL }}">
+        <view slot="desc">
+          <view style="margin-top: 10rpx;">{{item.desc}}</view>
+          <view style="margin-top: 10rpx;">{{item.status}}</view>
+        </view>
+      </van-card>
+    </view>
+  </view>
+
+</view>

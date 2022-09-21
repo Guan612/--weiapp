@@ -1,0 +1,32 @@
+<view>
+  <view class="content flex space-between">
+    <view>PHP程序设计</view>
+    <van-button bindtap="handleInvitation" block type="primary">邀请码</van-button>
+  </view>
+  <view class="tabs_content">
+    <van-tabs color="#1989fa" active="{{ active }}" bind:change="onChange">
+      <van-tab title="课堂动态">
+        <view style="margin-top: 10rpx;" wx:for="{{list}}" wx:key="id">
+          <van-card centered title="{{item.title}}" thumb="{{ item.imageURL }}">
+            <view slot="desc" style="height: 100rpx;" class="flex flex-items space-between">
+              <view size="mini">{{item.desc}}</view>
+              <view size="mini">{{item.order}}</view>
+            </view>
+          </van-card>
+        </view>
+      </van-tab>
+      <van-tab title="课堂工具箱">
+        <view style="background-color: #ffffff;margin-top: 20rpx;">
+          <view class="button_list" wx:for="{{tab2}}" wx:key="label">
+            <van-button data-url="{{item.url}}" block bindtap="handleTabRoute" type="{{item.type}}">{{item.label}}</van-button>
+          </view>
+        </view>
+      </van-tab>
+      <van-tab title="课堂公告">
+
+      </van-tab>
+    </van-tabs>
+  </view>
+  <van-button bindtap="handleClick" icon="plus" type="info" class="reward_add" />
+  <van-share-sheet show="{{ showShare }}" title="课堂操作" options="{{ options }}" bind:select="onSelect" bind:close="onClose" />
+</view>

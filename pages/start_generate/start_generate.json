@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "van-row": "/weapp/row/index",
+    "van-col": "/weapp/col/index",
+    "van-field": "/weapp/field/index",
+    "van-cell": "/weapp/cell/index",
+    "van-cell-group": "/weapp/cell-group/index",
+    "van-uploader": "/weapp/uploader/index",
+    "van-button": "/weapp/button/index"
+  },
+  "navigationBarTitleText": "生成邀请码"
+}

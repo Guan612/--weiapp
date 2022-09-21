@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-field": "/weapp/field/index",
+    "van-cell": "/weapp/cell/index",
+    "van-cell-group": "/weapp/cell-group/index",
+    "van-button": "/weapp/button/index",
+    "van-switch": "/weapp/switch/index"
+  },
+  "navigationBarTitleText": "课堂信息设置"
+}

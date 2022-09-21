@@ -1,0 +1,8 @@
+<view class="rows">
+  <view class="invitations">
+    <van-button bindtap="handleClick1" block type="primary">生成邀请码</van-button>
+  </view>
+  <view class="invitations">
+    <van-button bindtap="handleClick2" block type="info">生成课堂链接</van-button>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<view>
+  <view class="titles_content">课程</view>
+  <van-cell-group>
+    <van-field label="课程名称" placeholder="请输入课程名称" />
+  </van-cell-group>
+  <view class="miaoshus">4-30个字符，好的名称更容易吸引学生关注和购买</view>
+  <view class="titles_content">快速创建班级</view>
+  <van-cell-group wx:for="{{list}}" wx:key="index">
+    <van-field label="{{item.label}}" placeholder="请输入{{item.label}}" />
+  </van-cell-group>
+  <van-cell-group>
+    <van-cell>
+      <van-button bindtap="handleAdd" icon="plus" block>新增班级</van-button>
+    </van-cell>
+  </van-cell-group>
+  <view class="miaoshus">一门课可以有多个班级，最少创建一个班级</view>
+  <view style="padding: 40rpx;" bindtap="handleClick">
+    <van-button type="primary" block>创建</van-button>
+  </view>
+
+</view>

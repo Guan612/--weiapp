@@ -1,0 +1,25 @@
+.content {
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20rpx;
+}
+
+.tabs_content {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.reward_add {
+  position: fixed;
+  bottom: 42rpx;
+  z-index: 99;
+  right: 20rpx;
+}
+
+.button_list {
+  padding: 40rpx 20rpx;
+  width: 50%;
+  display: inline-block;
+
+  border-bottom: 10rpx solid #F4F7FC;
+}

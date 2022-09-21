@@ -1,0 +1,12 @@
+.contents {
+  padding: 10rpx;
+}
+
+.content_title {
+  background-color: #ffffff;
+  padding: 20rpx;
+  margin-bottom: 10rpx;
+}
+.content{
+  padding: 40rpx;
+}

@@ -1,0 +1,10 @@
+.content {
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 10rpx;
+  margin: 20rpx;
+}
+
+.tabs_content {
+  padding: 0rpx 20px;
+}

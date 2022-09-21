@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-cell": "/weapp/cell/index",
+    "van-cell-group": "/weapp/cell-group/index"
+  },
+  "navigationBarTitleText": "挂科预警"
+}

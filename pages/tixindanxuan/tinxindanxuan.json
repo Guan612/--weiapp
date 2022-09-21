@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "van-button": "/weapp/button/index",
+    "van-tab": "/weapp/tab/index",
+    "van-tabs": "/weapp/tabs/index",
+    "van-card": "/weapp/card/index",
+    "van-share-sheet": "/weapp/share-sheet/index",
+    "van-field": "/weapp/field/index",
+    "van-radio": "/weapp/radio/index",
+    "van-radio-group": "/weapp/radio-group/index",
+    "van-cell": "/weapp/cell/index",
+    "van-cell-group": "/weapp/cell-group/index"
+  },
+  "navigationBarTitleText": "单项选择"
+}

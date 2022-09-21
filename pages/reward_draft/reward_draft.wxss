@@ -1,0 +1,28 @@
+.content {
+  padding: 10rpx;
+
+}
+
+.content_block {
+  padding: 15rpx;
+  background-color: #ffffff;
+  margin-bottom: 10rpx;
+}
+
+.content_hre {
+  padding-bottom: 10rpx;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.content_text {
+  padding: 10rpx;
+  font-size: 26rpx;
+}
+
+.content_icon {
+  text-align: right;
+}
+
+.content_icon_noe {
+  margin-right: 30rpx;
+}

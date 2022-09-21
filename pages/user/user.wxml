@@ -1,0 +1,13 @@
+<view>
+  <view class="flex flex-items content">
+    <image class="content_image" src="{{avatarUrl}}" />
+    <view class="content_title">
+      <view>{{nickName}}</view>
+      <view>什么都没有哦！~</view>
+    </view>
+  </view>
+  <view class="tabs_content"  wx:for="{{list}}" wx:key="title">
+    <van-cell style="margin-bottom: 10rpx;" is-link title="{{item.title}}" link-type="navigateTo" url="{{item.url}}" />
+  </view>
+
+</view>

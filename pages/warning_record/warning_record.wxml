@@ -1,0 +1,6 @@
+<view>
+  <view class="flex flex-items justify-content">
+    <image src="http://pic.ik123.com/uploads/allimg/200528/12-20052Q03931.jpg" class="images" />
+  </view>
+  <view class="content_li" wx:key="index" wx:for="{{list}}">{{item.titile}}</view>
+</view>

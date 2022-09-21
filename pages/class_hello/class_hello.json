@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-button": "/weapp/button/index",
+    "van-tab": "/weapp/tab/index",
+    "van-tabs": "/weapp/tabs/index",
+    "van-card": "/weapp/card/index",
+    "van-dialog": "/weapp/dialog/index",
+    "van-field": "/weapp/field/index"
+  },
+  "navigationBarTitleText": "课堂"
+}

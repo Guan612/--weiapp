@@ -1,0 +1,9 @@
+<view>
+  <view class="content flex space-between">
+    <view>第一套题</view>
+    <van-button bindtap="handleInvitation" block type="primary">编辑</van-button>
+    <van-button bindtap="handleInvitation" block type="primary">删除</van-button>
+  </view>
+  <van-button bindtap="handleClick" icon="plus" type="info" class="reward_add" />
+  <van-share-sheet show="{{ showShare }}" title="课堂操作" options="{{ options }}" bind:select="onSelect" bind:close="onClose" />
+</view>

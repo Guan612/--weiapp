@@ -1,0 +1,23 @@
+<view>
+  <view  class="wran_button">
+    <van-button bindtap="handleRoute" block type="primary">设置分数占比</van-button>
+  </view>
+  <view class="rows colors">
+    <view class="flex">
+      <view style="width: 136rpx;">考勤目标: </view>作业占比 40%
+    </view>
+    <view class="flex">
+      <view style="width: 136rpx;"></view>出勤占比 30%
+    </view>
+    <view class="flex">
+      <view style="width: 136rpx;"></view>平时成绩占比 30%
+    </view>
+  </view>
+  <view class="rows" wx:for="{{list}}" wx:key="order">
+    <view class="titles">{{item.order}}</view>
+    <view>{{item.data1}}</view>
+    <view>{{item.data2}}</view>
+    <view>{{item.data3}}</view>
+  </view>
+
+</view>

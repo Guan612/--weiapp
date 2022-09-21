@@ -1,0 +1,39 @@
+<view>
+  <view class="flex flex-items space-between content">
+    <view style="width: 48%;">
+      <van-button bindtap="handleRoute" block type="primary">我要开课</van-button>
+    </view>
+    <view style="width: 48%;">
+      <van-button block type="info" bindtap="handleClick">私密小班</van-button>
+    </view>
+  </view>
+  <view class="tabs_content">
+    <van-tabs color="#1989fa" active="{{ active }}" bind:change="onChange">
+      <van-tab title="我加入的课程">
+        <view style="margin-top: 10rpx;" bindtap="handlePro" wx:for="{{list}}" wx:key="id">
+          <van-card  desc="{{item.desc}}" thumb="{{ item.imageURL }}">
+            <view slot="title" class="flex flex-items space-between">
+              <text size="mini">{{item.title}}</text>
+              <text size="mini">课程号:{{item.order}}</text>
+            </view>
+          </van-card>
+        </view>
+      </van-tab>
+      <van-tab title="我创建的课堂">
+        <view style="margin-top: 10rpx;" wx:for="{{list}}" wx:key="id">
+          <van-card centered desc="{{item.desc}}" wx:key="id" thumb="{{ item.imageURL }}">
+            <view slot="title" class="flex flex-items space-between">
+              <text size="mini">{{item.title}}</text>
+              <text size="mini">课程号:{{item.order}}</text>
+            </view>
+          </van-card>
+        </view>
+      </van-tab>
+    </van-tabs>
+  </view>
+  <van-dialog use-slot title="输入授权码立即加入班级" show="{{ show }}" show-cancel-button confirm-button-open-type="getUserInfo" bind:close="onClose" bind:getuserinfo="getUserInfo">
+    <view class="fields">
+      <van-field value="{{ value }}" placeholder="请输入授权码" border="{{ false }}" bind:change="onChange" />
+    </view>
+  </van-dialog>
+</view>

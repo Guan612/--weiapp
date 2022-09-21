@@ -1,0 +1,40 @@
+.content_titile {
+  padding: 20rpx;
+  background-color: #54d25e;
+  color: #ffffff;
+  text-align: center;
+}
+
+.content_titile>view {
+  margin-top: 10rpx;
+}
+
+.content_titile image {
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+
+}
+
+.prine {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+
+.tabs_content {
+  padding: 20rpx;
+}
+
+.content_row {
+  padding: 30rpx 0rpx;
+  background-color: #ffffff;
+}
+
+.content_item {
+  text-align: center;
+}
+
+.thumb {
+  height: 40rpx;
+}

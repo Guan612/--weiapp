@@ -1,0 +1,23 @@
+.conent {
+  padding: 20rpx;
+}
+
+.titles {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.conent_titles {
+  background-color: #ffffff;
+  padding: 20rpx;
+}
+
+.ul_content {
+  background-color: #ffffff;
+  margin-top: 20rpx;
+  padding: 20rpx;
+}
+
+.ul_content>view {
+  margin-bottom: 10rpx;
+}

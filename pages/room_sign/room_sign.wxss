@@ -1,0 +1,27 @@
+.content {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.tabs_content {
+  padding: 20px;
+}
+
+.fields {
+  padding: 40rpx;
+}
+
+.images {
+  margin: 0 auto;
+  background: #ffffff;
+  width: 100%;
+}
+
+.weui-input {
+  height: 200rpx;
+  width: 100%;
+  font-size: 80rpx;
+  margin: 100rpx 0rpx;
+  text-align: center;
+
+}

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-card": "/weapp/card/index",
+    "van-row": "/weapp/row/index",
+    "van-col": "/weapp/col/index"
+  },
+  "navigationBarTitleText": "钱包"
+}

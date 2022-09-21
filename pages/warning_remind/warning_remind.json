@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-button": "/weapp/button/index"
+  },
+  "navigationBarTitleText": "挂科提醒"
+}

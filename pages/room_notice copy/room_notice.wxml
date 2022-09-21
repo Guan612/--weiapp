@@ -1,0 +1,23 @@
+<view class="contents">
+  <view class="content_title">
+    <van-row>
+      <van-col span="12">发布任务</van-col>
+    </van-row>
+  </view>
+  <view>
+    <van-cell-group>
+      <van-field value="{{ message }}" show-word-limit label="发布任务" type="textarea" placeholder="请输入发布任务" maxlength="500" autosize border="{{ false }}" />
+    </van-cell-group>
+    <view style="background-color: #ffffff;padding: 20rpx;">
+      <van-uploader max-count="1" file-list="{{ fileList }}" bind:after-read="afterRead" />
+    </view>
+    <view class="flex flex-items space-between content">
+      <view style="width: 40%;">
+        <van-button block type="primary" bindtap="handleClick">取消</van-button>
+      </view>
+      <view style="width: 40%;">
+        <van-button block type="info" bindtap="handleClick">发布</van-button>
+      </view>
+    </view>
+  </view>
+</view>

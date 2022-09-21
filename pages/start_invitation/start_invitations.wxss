@@ -1,0 +1,12 @@
+.rows {
+  width: 100%;
+  text-align: center;
+  padding-top: 100rpx;
+}
+
+.invitations {
+  padding: 20rpx;
+  text-align: center;
+  margin: 0 auto;
+  width: 86%;
+}

@@ -1,0 +1,6 @@
+<view style="padding-top: 20rpx;">
+  <view class="tabs_content" wx:for="{{list}}" wx:key="title">
+    <van-cell style="margin-bottom: 10rpx;" is-link title="{{item.title}}" link-type="navigateTo" url="{{item.url}}" />
+  </view>
+
+</view>

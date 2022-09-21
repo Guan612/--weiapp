@@ -1,0 +1,14 @@
+.content {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.content_block {
+  width: 640rpx;
+  height: 360rpx;
+  background-color: #ffffff;
+  margin: 20rpx auto;
+  line-height: 360rpx;
+  text-align: center;
+  font-size: 36rpx;
+}

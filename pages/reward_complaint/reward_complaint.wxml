@@ -1,0 +1,11 @@
+<van-radio-group value="{{ radio }}" bind:change="onChange">
+  <van-cell-group>
+    <van-cell wx:for="{{list}}" wx:key="id" title="{{item.title}}" clickable data-name="{{item.id}}" bind:click="onClick">
+      <van-radio slot="right-icon" name="{{item.id}}" />
+    </van-cell>
+    <van-field value="{{ username }}" clearable label="其他" placeholder="请输入" bind:click-icon="onClickIcon" />
+  </van-cell-group>
+  <view bindtap="handleClick" style="margin: 0 auto;width: 300rpx;text-align: center;margin-top: 100rpx;">
+    <van-button type="info" block>完成</van-button>
+  </view>
+</van-radio-group>

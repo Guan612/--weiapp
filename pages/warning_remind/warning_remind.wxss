@@ -1,0 +1,23 @@
+.rows {
+  background-color: #ffffff;
+  width: 100%;
+  margin-bottom: 10rpx;
+  margin: 10rpx;
+  padding: 20rpx;
+  font-size: 24rpx;
+}
+
+.wran_button {
+  width: 300rpx;
+  padding: 20rpx;
+  margin-left: auto;
+}
+
+.colors {
+  color: red;
+}
+
+.titles {
+  font-weight: bold;
+  font-size: 28rpx;
+}

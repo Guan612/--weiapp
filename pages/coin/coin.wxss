@@ -1,0 +1,22 @@
+.content {
+  padding: 20px;
+  background-color: #ffffff;
+  height: 100rpx;
+}
+
+.content>view {
+  text-align: center;
+}
+
+.content_ul {
+  padding: 20rpx;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+}
+
+.content_li {
+  padding: 16rpx;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+  font-size: 24rpx;
+}

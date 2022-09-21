@@ -1,0 +1,10 @@
+.content {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+.tabs_content{
+  padding: 20px;
+}
+.fields{
+  padding: 40rpx;
+}

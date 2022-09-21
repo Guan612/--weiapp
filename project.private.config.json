@@ -1,0 +1,212 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "我的消息",
+          "pathName": "pages/news/news",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "个人中心",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "钱包",
+          "pathName": "pages/wallet/wallet",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "悬赏中心",
+          "pathName": "pages/reward/reward",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "发布悬赏",
+          "pathName": "pages/reward_add/reward_add",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "草稿箱",
+          "pathName": "pages/reward_draft/reward_draft",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "悬赏详情",
+          "pathName": "pages/reward_action/reward_action",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "举报",
+          "pathName": "pages/reward_complaint/reward_complaint",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的悬赏币",
+          "pathName": "pages/coin/coin",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "课堂信息设置",
+          "pathName": "pages/start_class/start_class",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "课堂",
+          "pathName": "pages/class_hello/class_hello",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "课堂",
+          "pathName": "pages/class_room/class_room",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "课堂详情",
+          "pathName": "pages/room_moids/room_moids",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "投票",
+          "pathName": "pages/room_vote/room_vote",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "成员管理",
+          "pathName": "pages/room_manage/room_manage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "课堂签到",
+          "pathName": "pages/room_sign/room_sign",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的资源",
+          "pathName": "pages/resources/resources",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的课件",
+          "pathName": "pages/resources_courseware/resources_courseware",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的素材",
+          "pathName": "pages/resources_material/resources_material",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的收藏",
+          "pathName": "pages/resources_collection/resources_collection",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "上传课件",
+          "pathName": "pages/upload_collection/upload_collection",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "挂科预警",
+          "pathName": "pages/upload_warning/upload_warning",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "挂科提醒",
+          "pathName": "pages/warning_remind/warning_remind",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "设置分数",
+          "pathName": "pages/warning_proportion/warning_proportion",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "分数记录",
+          "pathName": "pages/warning_record/warning_record",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "申请查分",
+          "pathName": "pages/warning_score/warning_score",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "邀请码",
+          "pathName": "pages/start_invitation/start_invitations",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "生成邀请码",
+          "pathName": "pages/start_generate/start_generate",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "教学活动",
+          "pathName": "pages/index_edit/index_edit",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "个人信息",
+          "pathName": "pages/userinfo/modify",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "题型选择",
+          "pathName": "pages/tixinxuanz/tixinxuanz",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "题型单选",
+          "pathName": "pages/tixindanxuan/tinxindanxuan",
+          "query": "",
+          "scene": null,
+          "launchMode": "default"
+        }
+      ]
+    }
+  }
+}

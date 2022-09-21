@@ -1,0 +1,4 @@
+.shdx {
+  padding: 30rpx;
+  font-size: 32rpx;
+}

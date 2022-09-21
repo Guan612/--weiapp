@@ -1,0 +1,8 @@
+<view>
+  <van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+  <view class="tabs_content">
+    <view style="margin-top: 10rpx;" wx:for="{{list}}" wx:key="id">
+      <van-card desc="{{item.desc}}" title="{{item.title}}" thumb="{{ item.imageURL }}" />
+    </view>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<view class="contents">
+  <view>
+    <van-cell-group>
+      <van-field label="邀请码" value="{{ value }}" placeholder="请输入邀请码" border="{{ false }}" bind:change="onChange" />
+    </van-cell-group>
+    <view class="content">
+      <van-button block type="info" bindtap="handleClick">确定生成</van-button>
+    </view>
+  </view>
+</view>

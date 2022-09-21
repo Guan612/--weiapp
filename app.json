@@ -1,0 +1,80 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/userinfo/modify",
+    "pages/index_edit/index_edit",
+    "pages/reward/reward",
+    "pages/news/news",
+    "pages/user/user",
+    "pages/wallet/wallet",
+    "pages/coin/coin",
+    "pages/resources/resources",
+    "pages/modify/modify",
+    "pages/fraction/fraction",
+    "pages/reward_add/reward_add",
+    "pages/reward_action/reward_action",
+    "pages/reward_draft/reward_draft",
+    "pages/reward_complaint/reward_complaint",
+    "pages/start_class/start_class",
+    "pages/class_hello/class_hello",
+    "pages/class_room/class_room",
+    "pages/room_moids/room_moids",
+    "pages/class_public/class_public",
+    "pages/room_vote/room_vote",
+    "pages/room_manage/room_manage",
+    "pages/room_notice/room_notice",
+    "pages/room_sign/room_sign",
+    "pages/room_task/room_task",
+    "pages/resources_courseware/resources_courseware",
+    "pages/resources_material/resources_material",
+    "pages/resources_collection/resources_collection",
+    "pages/resources_classroom/resources_classroom",
+    "pages/upload_collection/upload_collection",
+    "pages/upload_warning/upload_warning",
+    "pages/warning_remind/warning_remind",
+    "pages/warning_record/warning_record",
+    "pages/warning_score/warning_score",
+    "pages/warning_proportion/warning_proportion",
+    "pages/start_invitation/start_invitations",
+    "pages/start_generate/start_generate",
+    "pages/start_link/start_link",
+    "pages/tixinxuanz/tixinxuanz"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "课堂",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#1989fa",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "我的课堂",
+        "iconPath": "/images/tabbar/home.png",
+        "selectedIconPath": "/images/tabbar/home_action.png"
+      },
+      {
+        "pagePath": "pages/reward/reward",
+        "text": "悬赏中心",
+        "iconPath": "/images/tabbar/reward.png",
+        "selectedIconPath": "/images/tabbar/reward_action.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "我的消息",
+        "iconPath": "/images/tabbar/news.png",
+        "selectedIconPath": "/images/tabbar/news_action.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "/images/tabbar/user.png",
+        "selectedIconPath": "/images/tabbar/user_action.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

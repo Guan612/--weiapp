@@ -1,0 +1,15 @@
+<view class="conent">
+  <view class="conent_titles marginBottom10">
+    <view class="titles marginBottom10">20123123-01</view>
+    <view class="marginBottom10">所属课程：响应式Web设计 <text>共11位学生</text></view>
+    <van-button bindtap="handleRoute" type="primary">联系老师</van-button>
+  </view>
+  <view class="conent_titles" style="font-weight: bold;">教学活动 讨论区 直播回放</view>
+  <view wx:for="{{list}}" wx:key="index" class="ul_content">
+    <view>{{item.time}}</view>
+    <view>
+      <van-button type="primary" style="margin-right: 20rpx;">签到</van-button>{{item.title}}
+    </view>
+    <view>{{item.times}}</view>
+  </view>
+</view>

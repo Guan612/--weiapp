@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-field": "/weapp/field/index",
+    "van-button": "/weapp/button/index",
+    "van-icon": "/weapp/icon/index",
+    "van-divider": "/weapp/divider/index"
+  },
+  "navigationBarTitleText": "悬赏详情"
+}

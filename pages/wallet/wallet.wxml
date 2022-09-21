@@ -1,0 +1,29 @@
+<view>
+  <view class="content_titile">
+    <view>数据每天凌晨更新</view>
+    <image src="/images/jingqian.png" />
+    <view>我的余额</view>
+    <view class="prine">1000.00</view>
+    <view>查看明细</view>
+    <view>我要提现</view>
+  </view>
+  <van-row>
+    <van-col span="12">
+      <view class="content_row">
+        <view class="content_item">昨日收益（元）</view>
+        <view class="content_item">10.00</view>
+      </view>
+    </van-col>
+    <van-col span="12">
+      <view class="content_row">
+        <view class="content_item">今天收益（元）</view>
+        <view class="content_item">888.00</view>
+      </view>
+    </van-col>
+  </van-row>
+  <view class="tabs_content">
+    <view style="margin-top: 10rpx;" wx:for="{{list}}" wx:key="id">
+      <van-card desc="{{item.desc}}" title="{{item.title}}" thumb="{{ item.imageURL }}" />
+    </view>
+  </view>
+</view>

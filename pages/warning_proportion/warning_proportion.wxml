@@ -1,0 +1,9 @@
+<view>
+  <view class="flex proprotion" wx:for="{{list}}">
+    <view class="warnings">
+      <view>{{item.title}}</view>
+      <view>{{item.content}}</view>
+    </view>
+    <view class="right flex flex-items justify-content">分数设置</view>
+  </view>
+</view>
